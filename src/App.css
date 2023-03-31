@@ -28,6 +28,18 @@
   color: #61dafb;
 }
 
+.contenedor-botones-calculos, .contenedor-numeros {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 30%;
+}
+
+.contenedor-botones-calculos button {
+  color: white;
+  background-color: #282c34;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
